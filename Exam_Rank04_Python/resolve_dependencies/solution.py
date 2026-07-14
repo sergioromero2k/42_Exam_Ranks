@@ -1,5 +1,6 @@
 import heapq
 
+
 # ALGORITMO: Kahn's Algorithm (Topological Sort con BFS)
 def resolve_dependencies(packages: dict[str, list[str]]) -> list[str]:
     if not packages:
