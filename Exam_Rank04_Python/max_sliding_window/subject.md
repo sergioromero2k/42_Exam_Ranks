@@ -2,6 +2,11 @@
 ---
 Dado un array de enteros y un tamaño de ventana k, devuelve el máximo de cada ventana deslizante.
 
+
+```py
+def max_sliding_window(nums: list[int], k: int) -> list[int]:
+```
+
 ### Salida
 ```
 ([1,3,-1,-3,5,3,6,7], 3) → [3,3,5,5,6,7]

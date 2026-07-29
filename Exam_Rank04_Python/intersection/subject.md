@@ -3,6 +3,10 @@
 
 Dada una lista de listas de enteros, devuelve los elementos que aparecen en todas las listas. Si el input es vacío, devuelve [].
 
+```py
+def find_common_elements(lists: list[list[int]]) -> list[int]:
+```
+
 ### Salida
 ```
 [[1,2,3], [2,4,5], [6,2,7]]  → [2]

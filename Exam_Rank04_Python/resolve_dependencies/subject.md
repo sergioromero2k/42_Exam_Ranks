@@ -7,6 +7,12 @@ Dado un diccionario de paquetes donde cada clave es un paquete y su valor es la 
 * En caso de empate, orden alfabético
 * Si el input es vacío, devuelve []
 
+
+```py
+def def resolve_dependencies(packages: dict[str, list[str]]) -> list[str]:
+(s: str) -> int:
+```
+
 ### Salida
 ```
 # Cadena lineal

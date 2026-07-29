@@ -4,6 +4,11 @@
 Dado un string, devuelve el número mínimo de cortes para que cada parte sea un palíndromo. 
 Sin usar módulos externos.
 
+```py
+def min_cuts_no_modules(s: str) -> int:
+```
+
+
 ### Salida
 ```
 ""          → 0

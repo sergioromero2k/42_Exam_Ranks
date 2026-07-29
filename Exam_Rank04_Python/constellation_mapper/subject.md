@@ -3,6 +3,10 @@
 
 Escribe una función **constellation_mapper(coordinates, size)** que reciba una lista de tuplas (row, col) y un entero size. Devuelve una grilla de size x size donde cada posición es "." excepto las coordenadas válidas que se marcan con "*". Cada fila se devuelve como string.
 
+```py
+def constellation_mapper(stars: list[tuple[int, int]], size: int):
+```
+
 ### Salida
 ```
 constellation_mapper([(0, 0)], 3)
