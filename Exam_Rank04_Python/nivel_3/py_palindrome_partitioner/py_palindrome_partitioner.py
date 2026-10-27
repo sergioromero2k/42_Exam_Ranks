@@ -1,10 +1,11 @@
 # Recursión con memoización (top-down DP)
+# def palindrome_splitter(s: str) -> int:
 def min_cuts_no_modules(s: str) -> int:
     if not s or s == s[::-1]:
         return 0
-    
+
     memo = {}
-    
+
     def dp(sub: str) -> int:
         if sub in memo:
             return memo[sub]

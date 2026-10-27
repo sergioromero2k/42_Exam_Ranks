@@ -1,6 +1,7 @@
 from collections import deque
 
 
+# def sliding_window_maximum(nums: list[int], k: int) -> list[int]:
 def max_sliding_window(nums: list[int], k: int) -> list[int]:
     if not nums or k <= 0:
         return []
