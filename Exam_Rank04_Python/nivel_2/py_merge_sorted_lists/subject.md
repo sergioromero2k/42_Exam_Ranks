@@ -10,7 +10,7 @@ La función debe:
 - Manejar listas vacías y entradas vacías de forma adecuada
 - Mantener una eficiencia óptima para entradas grandes
 
-**Funciones permitidas:** sorted(), .sort(), heapq.merge(). Utiliza solo las funciones permitidas para evitar un cero el día del examen.
+**Funciones / módulos prohibidos:** sorted(), .sort(), heapq.merge(). Utiliza solo las funciones permitidas para evitar un cero el día del examen.
 **Firma:** `def merge_sorted_lists(lists: list[list[int]]) -> list[int]:`
 ### Salida
 ```py
