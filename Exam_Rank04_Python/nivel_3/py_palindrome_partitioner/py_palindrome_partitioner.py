@@ -1,12 +1,10 @@
-# Recursión con memoización (top-down DP)
-# def palindrome_splitter(s: str) -> int:
-def min_cuts_no_modules(s: str) -> int:
-    n = len(s)
-    cuts = list(range(-1, n))
-    for c in range(n):
-        for r in (c, c + 1):
-            l = c
-            while l >= 0 and r < n and s[l] == s[r]:
-                cuts[r + 1] = min(cuts[r + 1], cuts[l] + 1)
-                l, r = l - 1, r + 1
-    return max(cuts[n], 0)
+"""
+Tienes que cortar una palabra en trozos de forma que cada trozo sea un palíndromo (que se lee igual al derecho y al revés), 
+    usando el menor número de cortes posible.
+La función devuelve cuántos cortes hacen falta."""
+
+
+def palindrome_partitioner(s: str) -> int:
+    if s == s[::-1]:
+        return 0
+    return min(1 + palindrome_partitioner(s[i:]) for i in range(1, len(s)) if s[:i] == s[:i][::-1])

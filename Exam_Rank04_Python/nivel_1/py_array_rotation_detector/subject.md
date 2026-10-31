@@ -9,7 +9,7 @@ La función debe devolver True si arr2 es una rotación de arr1, y False en caso
 Si las matrices tienen longitudes diferentes, no pueden ser rotaciones entre sí.
 Dos matrices vacías se consideran rotaciones entre sí.
 
-**Funciones permitidas:** collections.deque.rotate(). Utiliza solo las funciones permitidas para evitar un cero el día del examen.
+**Funciones / módulos prohibidos:** collections.deque.rotate(). Utiliza solo las funciones permitidas para evitar un cero el día del examen.
 **Firma:** `def array_rotation_detector(arr1: list, arr2: list) -> bool:`
 
 ### Salida
