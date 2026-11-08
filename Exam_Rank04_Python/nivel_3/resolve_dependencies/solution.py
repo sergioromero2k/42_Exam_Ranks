@@ -19,6 +19,3 @@ def package_dependency_resolver(packages: dict[str, list[str]]) -> list[str]:
             return []
         instalados += listos
     return instalados
-
-print(package_dependency_resolver({"A": [], "B": ["A"], "C": ["A", "B"]}))
-print(package_dependency_resolver({"A": ["B"], "B": ["A"]}))

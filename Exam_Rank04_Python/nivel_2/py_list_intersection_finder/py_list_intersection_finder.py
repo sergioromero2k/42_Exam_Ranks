@@ -1,3 +1,5 @@
+"""Te paso varias listas y tienes que devolver los números que aparecen en todas."""
+
 def list_intersection_finder(lists: list[list[int]]) -> list[int]:
     """"""
     result = []
